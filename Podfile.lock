@@ -1,0 +1,25 @@
+PODS:
+  - Alamofire (4.3.0)
+  - AlamofireImage (3.2.0):
+    - Alamofire (~> 4.1)
+  - DependencyDemoLib (0.1.0):
+    - Alamofire (~> 4.3)
+    - AlamofireImage (~> 3.2)
+
+DEPENDENCIES:
+  - Alamofire
+  - AlamofireImage
+  - DependencyDemoLib (from `./DependencyDemoLib`)
+
+EXTERNAL SOURCES:
+  DependencyDemoLib:
+    :path: "./DependencyDemoLib"
+
+SPEC CHECKSUMS:
+  Alamofire: 856a113053a7bc9cbe5d6367a555d773fc5cfef7
+  AlamofireImage: 157ed682cc81d3b9db4fb90c1f12180ac552d93b
+  DependencyDemoLib: 40ba433c75c0e200351f810e87b396bb72f69500
+
+PODFILE CHECKSUM: 72a31b9d6d4fe7253b0a78e2cf212ed1242d1bf4
+
+COCOAPODS: 1.2.0
