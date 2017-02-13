@@ -1,0 +1,6 @@
+use_frameworks!
+target 'DependencyDemoLib_Tests' do
+  pod 'DependencyDemoLib', :path => '../'
+  
+  
+end
